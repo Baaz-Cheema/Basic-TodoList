@@ -1,0 +1,57 @@
+.todoItem {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.item fieldset {
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid grey;
+}
+
+.item:hover {
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+img {
+    width: 100px;
+}
+
+#root {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+}
+
+#root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
